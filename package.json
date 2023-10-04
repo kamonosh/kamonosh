@@ -1,0 +1,26 @@
+{
+	"author": "Matthew Thompson",
+	"bugs": {
+		"url": "https://github.com/kamonosh/kamonosh/issues"
+	},
+  "description": "A monorepo for Kamoshin",
+	"homepage": "https://github.com/kamonosh/kamonosh#readme",
+	"keywords": [
+		"monorepo"
+	],
+	"license": "ISC",
+  "main": "index.js",
+  "name": "kamonosh",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kamonosh/kamonosh.git"
+	},
+  "scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+  },
+	"version": "1.0.0",
+	"workspaces":[
+		"packages/cool-package",
+		"packages/super-package"
+	]
+}
